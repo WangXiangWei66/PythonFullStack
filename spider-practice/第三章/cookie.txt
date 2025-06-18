@@ -1,0 +1,7 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.baidu.com	TRUE	/	FALSE	1623570585	BAIDUID	AF75FFD8D3B305058E451676E3FCF181:FG=1
+.tieba.baidu.com	TRUE	/	FALSE	1609430399	TIEBAUID	cb23caae14130a0d384a57f1
+.tieba.baidu.com	TRUE	/	FALSE	1609430399	TIEBA_USERTYPE	a5de5c0afc725619b33b4c15
