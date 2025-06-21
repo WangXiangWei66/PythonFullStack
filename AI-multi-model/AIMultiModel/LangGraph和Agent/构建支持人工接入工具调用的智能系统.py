@@ -1,14 +1,13 @@
 import os
-from typing import TypedDict, Annotated
-
+from typing import  Annotated
+from typing_extensions import TypedDict
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.checkpoint.sqlite import SqliteSaver
 from langgraph.graph import add_messages, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition  #处理当前节点和条件判断数
-from AIMultiModel.LangGraph和Agent.构建可视化图和实现流式对话功能函数 import loop_graph_invoke, loop_graph_invoke_tools, \
-    draw_graph
+from AIMultiModel.LangGraph和Agent.构建可视化图和实现流式对话功能函数 import loop_graph_invoke, loop_graph_invoke_tools,draw_graph
 
 
 # 1、定义了一个状态类型
